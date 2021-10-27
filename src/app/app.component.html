@@ -1,3 +1,10 @@
-<h1>{{ nombre | uppercase }}</h1>
-
-<button (click)="mostrarNombre()"></button>
+<div class="text-layout">
+  <h1>{{ nombre | uppercase }}</h1>
+</div>
+<button
+  icon="pi pi-check"
+  iconPos="left"
+  pButton
+  (click)="mostrarNombre()"
+  label="Pulsar"
+></button>
